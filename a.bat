@@ -484,6 +484,10 @@ git config --global alias.p push
 git config --global alias.a add
 git config --global alias.l log
 git config --global alias.s status
+git config --global alias.c commit
+git config --global alias.b branch
+
+git config --global core.editor sakura.exe
 
 goto :end
 

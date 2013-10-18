@@ -1,8 +1,8 @@
-pause
+REM pause
 REM a p && cd C:\WORKS\WS\WS_Android~\FM && git add . && git commit -m "W" && git push origin master
-a p && cd C:\WORKS\WS\WS_Android~\FM
+a p && cd C:\WORKS\WS\WS_Android~\FM && git add . && git commit -m "W" && git push origin master
 pause
-git add . && git commit -m "W" && git push origin master
+REM git add . && git commit -m "W" && git push origin master
 pause
 
 REM cd C:\WORKS\WS\WS_Android~\FM
