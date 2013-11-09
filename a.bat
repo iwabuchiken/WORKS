@@ -476,6 +476,17 @@ SET MYSQL_HOME_BIN=C:\WORKS\PROGRAMS\xampp\mysql\bin
 ECHO Modifying path: %MYSQL_HOME_BIN%;%%PATH%%;
 PATH=%MYSQL_HOME_BIN%;%PATH%;
 
+ECHO Setting a var: SEVENZIP_BIN=C:\WORKS\PROGRAMS\Seven-Zip
+SET SEVENZIP_BIN=C:\WORKS\PROGRAMS\Seven-Zip
+ECHO Modifying path: %SEVENZIP_BIN%;%%PATH%%;
+PATH=%SEVENZIP_BIN%;%PATH%;
+
+ECHO Setting a var: PHP_BIN=C:\WORKS\PROGRAMS\xampp\php
+SET PHP_BIN=C:\WORKS\PROGRAMS\xampp\php
+ECHO Modifying path: %PHP_BIN%;%%PATH%%;
+PATH=%PHP_BIN%;%PATH%;
+
+
 ECHO Setting aliases for git
 ECHO 	=> checkout -> co, push -> p, add -> a, log -> l,^
 			status -> s
