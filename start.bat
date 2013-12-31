@@ -1,6 +1,13 @@
 C:\WORKS\PROGRAMS\Freemind_090\FreeMind\Freemind.exe
 REM C:\Program Files\Google\Chrome\Application\chrome.exe
 start C:\WORKS
+
+start C:\WORKS\"Command Prompt.lnk"
+
+pushd "C:\Program Files\Google\Chrome\Application"
+start chrome.exe
+
+
 REM pause
 REM cd C:\WORKS\WS
 REM a p
