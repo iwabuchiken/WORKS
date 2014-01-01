@@ -10,7 +10,6 @@ REM List of directories to git-push
 REM C:\WORKS\WS\ADMIN_USB_1
 
 REM C:\WORKS\WS\Cake\IFM_CAKE_1
-REM C:\WORKS\WS\Electronics
 REM C:\WORKS\WS\G_nbp_new
 REM C:\WORKS\WS
 REM 
