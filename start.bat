@@ -1,4 +1,6 @@
-C:\WORKS\PROGRAMS\Freemind_090\FreeMind\Freemind.exe
+REM C:\WORKS\PROGRAMS\Freemind_090\FreeMind\Freemind.exe
+C:\WORKS\PROGRAMS\Freemind_0.9.0\FreeMind\fm_start.bat
+
 REM C:\Program Files\Google\Chrome\Application\chrome.exe
 start C:\WORKS
 
