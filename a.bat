@@ -368,10 +368,29 @@ REM 	makejar.bat p1 E_5_multiple_sources.java
 	
 :path_only
 ECHO Setting a var: SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
-SET SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
+SET sakura=%SAKURA_HOME%
+REM if sakura=="" (
+REM if not sakura NEQ "" (
+REM if %sakura% NEQ "" (
+if not "%sakura%"=="" (
+	ECHO SAKUA_HOME is already set
+	ECHO 	---^> "%SAKUA_HOME%"
+) else (
+	SET SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
+	ECHO SAKUA_HOME set
+)
 
 ECHO Setting a var: JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
-SET JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
+SET target=%JAVA_HOME%
+if not "%target%"=="" (
+	ECHO JAVA_HOME is already set
+	ECHO 	---^> "%JAVA_HOME%"
+) else (
+	SET JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
+	ECHO JAVA_HOME set
+)
+
+REM SET JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
 
 ECHO Setting a var: GIT_CMD=C:\WORKS\PROGRAMS\msysgit_full_1.7.11\Git\cmd
 SET GIT_CMD=C:\WORKS\PROGRAMS\msysgit_full_1.7.11\Git\cmd
