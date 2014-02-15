@@ -5,7 +5,7 @@ call C:\WORKS\commands\general\WS_Electronics.bat
 call C:\WORKS\commands\general\WS_MuseScore.bat
 
 REM a p && pushd C:\WORKS\WS\ADMIN_USB_1 && git add . && git commit -m "W" && git push origin master && pushd C:\WORKS\WS\Electronics && git add . && git commit -m "W" && git push origin master
-pause
+REM pause
 
 REM List of directories to git-push
 REM C:\WORKS\WS\ADMIN_USB_1
