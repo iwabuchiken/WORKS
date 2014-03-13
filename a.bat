@@ -123,6 +123,11 @@ SET WS_HOME=C:\WORKS\WS
 ECHO Modifying path: %%PATH%%;%WS_HOME%;
 PATH=%PATH%;%WS_HOME%;
 
+ECHO Setting a var: VCPP_HOME=C:\WORKS\WS
+SET VCPP_HOME=C:\Program Files\Microsoft_Visual_Studio_10.0\VC\bin
+ECHO Modifying path: %%PATH%%;%VCPP_HOME%;
+PATH=%PATH%;%VCPP_HOME%;
+
 REM ************************************
 REM *
 REM *	Set path
