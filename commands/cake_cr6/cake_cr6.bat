@@ -1,10 +1,12 @@
 call C:\WORKS\commands\cake_cr6\start_eclipse.bat
 
+call C:\WORKS\commands\cake_cr6\start_filezilla_and_xampp.bat
+
 call C:\WORKS\commands\cake_cr6\start_prompt.bat
 
 call C:\WORKS\commands\cake_cr6\start_browser.bat
 
-call C:\WORKS\commands\cake_cr6\start_server_and_git.bat
+call C:\WORKS\commands\cake_cr6\start_git.bat
 
 REM call C:\WORKS\commands\cake_cr6\start_browser.bat
 

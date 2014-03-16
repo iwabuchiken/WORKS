@@ -1,2 +1,2 @@
-pushd C:\WORKS\PROGRAMS\pleiades-e4.3-ultimate-32bit-jre_20130617\pleiades\eclipse
+pushd C:\WORKS\PROGRAMS\adt-bundle-windows-x86-20130917\adt-bundle-windows-x86-20130917\eclipse
 start eclipse.exe
