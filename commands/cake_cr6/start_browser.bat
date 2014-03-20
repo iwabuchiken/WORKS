@@ -5,4 +5,5 @@ REM REF http://stackoverflow.com/questions/1672338/how-to-sleep-for-5-seconds-in
 REM ping 1.1.1.1 -n 1 -w 15000 > nul
 
 REM REF http://superuser.com/questions/153245/chrome-command-line-arguments-w-url asked Jun 16 '10 at 15:22
-start chrome.exe http://localhost
+REM start chrome.exe http://localhost
+start chrome.exe http://localhost/PHP_server/CR6_cake/ http://benfranklin.chips.jp/cake_apps/CR6_cake/texts/index
