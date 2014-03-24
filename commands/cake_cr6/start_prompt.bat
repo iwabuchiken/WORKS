@@ -1,2 +1,2 @@
-start C:\WORKS\commands\rails_cr6\"Command Prompt.lnk"
+start C:\WORKS\commands\cake_cr6\"Command Prompt.lnk"
 REM pause
