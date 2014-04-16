@@ -1,6 +1,6 @@
 call C:\WORKS\commands\ode\start_apps.bat
 
-call C:\WORKS\commands\ode\start_prompt.bat
+call C:\WORKS\commands\ode\start_prompt_and_explorer.bat
 
 call C:\WORKS\commands\ode\start_git.bat
 
