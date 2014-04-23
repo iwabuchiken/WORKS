@@ -174,10 +174,15 @@ SET MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
 ECHO Modifying path: %MINGW_BIN%;%%PATH%%;
 PATH=%MINGW_BIN%;%PATH%;
 
-ECHO Setting a var: VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
-SET VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
-ECHO Modifying path: %VC2008_BIN%;%%PATH%%;
-PATH=%VC2008_BIN%;%PATH%;
+REM ECHO Setting a var: VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
+REM SET VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
+REM ECHO Modifying path: %VC2008_BIN%;%%PATH%%;
+REM PATH=%VC2008_BIN%;%PATH%;
+
+ECHO Setting a var: VC2010_BIN=C:\Program Files\Microsoft_Visual_Studio_10.0\VC\bin
+SET VC2010_BIN=C:\Program Files\Microsoft_Visual_Studio_10.0\VC\bin
+ECHO Modifying path: %VC2010_BIN%;%%PATH%%;
+PATH=%VC2010_BIN%;%PATH%;
 
 ECHO Setting a var: SUBVERSION_BIN=C:\WORKS\PROGRAMS\Subversion_Client
 SET SUBVERSION_BIN=C:\WORKS\PROGRAMS\Subversion_Client
@@ -199,8 +204,9 @@ SET MECAB_BIN=C:\WORKS\PROGRAMS\MeCab\bin
 ECHO Modifying path: %MECAB_BIN%;%%PATH%%;
 PATH=%MECAB_BIN%;%PATH%;
 
-ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt5.0.0\5.0.0\msvc2010\bin
-SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt5.0.0\5.0.0\msvc2010\bin
+REM ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt5.0.0\5.0.0\msvc2010\bin
+ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
+SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
 ECHO Modifying path: %QT_BIN%;%%PATH%%;
 PATH=%QT_BIN%;%PATH%;
 
@@ -450,10 +456,16 @@ SET MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
 ECHO Modifying path: %MINGW_BIN%;%%PATH%%;
 PATH=%MINGW_BIN%;%PATH%;
 
-ECHO Setting a var: VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
-SET VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
-ECHO Modifying path: %VC2008_BIN%;%%PATH%%;
-PATH=%VC2008_BIN%;%PATH%;
+REM ECHO Setting a var: VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
+REM SET VC2008_BIN=C:\Program Files\Microsoft Visual Studio 9.0\VC\bin
+REM ECHO Modifying path: %VC2008_BIN%;%%PATH%%;
+REM PATH=%VC2008_BIN%;%PATH%;
+
+ECHO Setting a var: VC2010_BIN=C:\Program Files\Microsoft_Visual_Studio_10.0\VC\bin
+SET VC2010_BIN=C:\Program Files\Microsoft_Visual_Studio_10.0\VC\bin
+ECHO Modifying path: %VC2010_BIN%;%%PATH%%;
+PATH=%VC2010_BIN%;%PATH%;
+
 
 ECHO Setting a var: SUBVERSION_BIN=C:\WORKS\PROGRAMS\Subversion_Client
 SET SUBVERSION_BIN=C:\WORKS\PROGRAMS\Subversion_Client
@@ -475,8 +487,8 @@ SET MECAB_BIN=C:\WORKS\PROGRAMS\MeCab\bin
 ECHO Modifying path: %MECAB_BIN%;%%PATH%%;
 PATH=%MECAB_BIN%;%PATH%;
 
-ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt5.0.0\5.0.0\msvc2010\bin
-SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt5.0.0\5.0.0\msvc2010\bin
+ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
+SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
 ECHO Modifying path: %QT_BIN%;%%PATH%%;
 PATH=%QT_BIN%;%PATH%;
 
