@@ -169,8 +169,9 @@ SET RUBY_HOME_BIN=C:\WORKS\PROGRAMS\RailsInstaller\Ruby1.9.3\bin
 ECHO Modifying path: %RUBY_HOME_BIN%;%%PATH%%;
 PATH=%RUBY_HOME_BIN%;%PATH%;
 
-ECHO Setting a var: MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
-SET MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
+REM ECHO Setting a var: MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
+ECHO Setting a var: MINGW_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\Tools\mingw48_32\bin
+SET MINGW_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\Tools\mingw48_32\bin
 ECHO Modifying path: %MINGW_BIN%;%%PATH%%;
 PATH=%MINGW_BIN%;%PATH%;
 
@@ -205,8 +206,9 @@ ECHO Modifying path: %MECAB_BIN%;%%PATH%%;
 PATH=%MECAB_BIN%;%PATH%;
 
 REM ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt5.0.0\5.0.0\msvc2010\bin
-ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
-SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
+REM ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
+ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\mingw48_32\bin
+SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\mingw48_32\bin
 ECHO Modifying path: %QT_BIN%;%%PATH%%;
 PATH=%QT_BIN%;%PATH%;
 
@@ -451,8 +453,8 @@ SET RUBY_HOME_BIN=C:\WORKS\PROGRAMS\RailsInstaller\Ruby1.9.3\bin
 ECHO Modifying path: %RUBY_HOME_BIN%;%%PATH%%;
 PATH=%RUBY_HOME_BIN%;%PATH%;
 
-ECHO Setting a var: MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
-SET MINGW_BIN=C:\WORKS\PROGRAMS\MinGW\bin
+ECHO Setting a var: MINGW_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\Tools\mingw48_32\bin
+SET MINGW_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\Tools\mingw48_32\bin
 ECHO Modifying path: %MINGW_BIN%;%%PATH%%;
 PATH=%MINGW_BIN%;%PATH%;
 
@@ -487,8 +489,8 @@ SET MECAB_BIN=C:\WORKS\PROGRAMS\MeCab\bin
 ECHO Modifying path: %MECAB_BIN%;%%PATH%%;
 PATH=%MECAB_BIN%;%PATH%;
 
-ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
-SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\msvc2010\bin
+ECHO Setting a var: QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\mingw48_32\bin
+SET QT_BIN=C:\WORKS\PROGRAMS\Qt\Qt_5_2_1\5.2.1\mingw48_32\bin
 ECHO Modifying path: %QT_BIN%;%%PATH%%;
 PATH=%QT_BIN%;%PATH%;
 
