@@ -2,7 +2,8 @@ REM C:\WORKS\PROGRAMS\Freemind_1.0.0\FreeMind\Freemind.exe
 C:\WORKS\PROGRAMS\Freemind_1.0.0\FreeMind\Freemind.exe
 
 start C:\WORKS
-start C:\Users\IwabuchiK\Desktop\shortcuts
+REM start C:\Users\IwabuchiK\Desktop\shortcuts
+start C:\WORKS\shortcuts
 
 start C:\WORKS\"Command Prompt.lnk"
 
