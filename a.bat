@@ -11,6 +11,11 @@ ECHO Setting a var: WORKS_HOME=C:\WORKS
 SET WORKS_HOME=C:\WORKS
 PATH=%PATH%;%WORKS_HOME%;
 
+ECHO Setting a var: COMMANDS_HOME=C:\WORKS\commands
+SET COMMANDS_HOME=C:\WORKS\commands
+PATH=%PATH%;%COMMANDS_HOME%;
+
+
 ECHO Setting a var: SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
 SET SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
 PATH=%PATH%;%SAKURA_HOME%;
@@ -26,6 +31,14 @@ PATH=%PATH%;%GIT_CMD%;
 ECHO Setting a var: ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86-20140321\adt-bundle-windows-x86-20140321\sdk\platform-tools
 SET ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86-20140321\adt-bundle-windows-x86-20140321\sdk\platform-tools
 PATH=%PATH%;%ADB_HOME%;
+
+ECHO Setting a var: MINGW_BIN_HOME=C:\MinGW\bin
+SET MINGW_BIN_HOME=C:\MinGW\bin
+PATH=%PATH%;%MINGW_BIN_HOME%;
+
+ECHO Setting a var: QMAKE_HOME=C:\WORKS\Programs\Qt_5.3.0\5.2.1\mingw48_32\bin
+SET QMAKE_HOME=C:\WORKS\Programs\Qt_5.3.0\5.2.1\mingw48_32\bin
+PATH=%PATH%;%QMAKE_HOME%;
 
 
 ECHO Setting aliases for git
