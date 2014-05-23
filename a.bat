@@ -5,19 +5,25 @@ REM ************************************
 REM *
 REM *	Set vars
 REM *
+REM *	WORKS_HOME	COMMANDS_HOME	SAKURA_HOME
+REM *	JAVA_HOME	GIT_CMD			ADB_HOME
+REM *	MINGW_BIN_HOME	QMAKE_HOME	
+REM *	
+REM *	
 REM ************************************
 :set_path
 ECHO Setting a var: WORKS_HOME=C:\WORKS
 SET WORKS_HOME=C:\WORKS
 PATH=%PATH%;%WORKS_HOME%;
 
+
 ECHO Setting a var: COMMANDS_HOME=C:\WORKS\commands
 SET COMMANDS_HOME=C:\WORKS\commands
 PATH=%PATH%;%COMMANDS_HOME%;
 
 
-ECHO Setting a var: SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
-SET SAKURA_HOME=C:\WORKS\PROGRAMS\sakura
+ECHO Setting a var: SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1
+SET SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1
 PATH=%PATH%;%SAKURA_HOME%;
 
 ECHO Setting a var: JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
@@ -42,8 +48,8 @@ PATH=%PATH%;%QMAKE_HOME%;
 
 
 ECHO Setting aliases for git
-ECHO 	=> checkout -> co, push -> p, add -> a, log -> l,^
-			status -> s
+ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
+			status -^> s, commit -^> c
 git config --global alias.co checkout
 git config --global alias.p push
 git config --global alias.a add
