@@ -7,8 +7,8 @@ echo.
 
 call C:\WORKS\commands\push_fm.bat
 
-echo.
-call C:\WORKS\commands\push_musescore.bat
+REM echo.
+REM call C:\WORKS\commands\push_musescore.bat
 
 echo.
 call C:\WORKS\commands\push_WORKS.bat
