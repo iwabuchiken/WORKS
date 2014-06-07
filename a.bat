@@ -54,6 +54,15 @@ ECHO Setting a var: JDK_BIN_HOME=C:\WORKS\Programs\jdk_1_8_5.05\bin
 SET JDK_BIN_HOME=C:\WORKS\Programs\jdk_1_8_5.05\bin
 PATH=%PATH%;%JDK_BIN_HOME%;
 
+ECHO Setting a var: SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3
+SET SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3
+PATH=%PATH%;%SQLITE3_BIN_HOME%;
+
+ECHO Setting a var: GNUPLOT_BIN_HOME=C:\WORKS\Programs\gnuplot\bin
+SET GNUPLOT_BIN_HOME=C:\WORKS\Programs\gnuplot\bin
+PATH=%PATH%;%GNUPLOT_BIN_HOME%;
+
+
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
 			status -^> s, commit -^> c
