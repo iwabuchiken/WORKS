@@ -26,14 +26,9 @@ ECHO Setting a var: SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1
 SET SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1
 PATH=%PATH%;%SAKURA_HOME%;
 
-ECHO Setting a var: JAVA_HOME=C:\WORKS\Programs\jdk_1_8_5.05
-SET JAVA_HOME=C:\WORKS\Programs\jdk_1_8_5.05
+ECHO Setting a var: JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
+SET JAVA_HOME=C:\WORKS\PROGRAMS\Java_7u7_i586
 PATH=%PATH%;%JAVA_HOME%;
-
-ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS\Programs\jdk_1_8_5.05\bin
-SET JAVA_HOME_BIN=C:\WORKS\Programs\jdk_1_8_5.05\bin
-PATH=%PATH%;%JAVA_HOME_BIN%;
-
 
 ECHO Setting a var: GIT_CMD=C:\WORKS\Programs\Git\cmd
 SET GIT_CMD=C:\WORKS\Programs\Git\cmd
@@ -50,22 +45,6 @@ PATH=%PATH%;%MINGW_BIN_HOME%;
 ECHO Setting a var: QMAKE_HOME=C:\WORKS\Programs\Qt_5.3.0\5.2.1\mingw48_32\bin
 SET QMAKE_HOME=C:\WORKS\Programs\Qt_5.3.0\5.2.1\mingw48_32\bin
 PATH=%PATH%;%QMAKE_HOME%;
-
-ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
-SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
-PATH=%PATH%;%ANT_BIN_HOME%;
-
-ECHO Setting a var: JDK_BIN_HOME=C:\WORKS\Programs\jdk_1_8_5.05\bin
-SET JDK_BIN_HOME=C:\WORKS\Programs\jdk_1_8_5.05\bin
-PATH=%PATH%;%JDK_BIN_HOME%;
-
-ECHO Setting a var: SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3
-SET SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3
-PATH=%PATH%;%SQLITE3_BIN_HOME%;
-
-ECHO Setting a var: GNUPLOT_BIN_HOME=C:\WORKS\Programs\gnuplot\bin
-SET GNUPLOT_BIN_HOME=C:\WORKS\Programs\gnuplot\bin
-PATH=%PATH%;%GNUPLOT_BIN_HOME%;
 
 
 ECHO Setting aliases for git
