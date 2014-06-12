@@ -1,3 +1,5 @@
+@echo off
+
 echo cd C:\WORKS -------------------
 
 REM set abc=%PUSH%
