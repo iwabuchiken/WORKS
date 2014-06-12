@@ -1,16 +1,16 @@
-echo cd C:\WORKS
+echo cd C:\WORKS -------------------
 
-set abc=%PUSH%
+REM set abc=%PUSH%
 
-if abc=="yes" (
+if %PUSH%=="yes" (
 
-	echo PUSH
+	cd C:\WORKS && git add . && git commit -m "W" && git push origin master
 
 ) else (
 
-	echo NOT PUSH
+	C:\WORKS\a && cd C:\WORKS && git add . && git commit -m "W" && git push origin master
 	
 )
 
-C:\WORKS\a && cd C:\WORKS && git add . && git commit -m "W" && git push origin master
+REM C:\WORKS\a && cd C:\WORKS && git add . && git commit -m "W" && git push origin master
 
