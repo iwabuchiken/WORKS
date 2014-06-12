@@ -7,7 +7,7 @@ echo.
 
 call C:\WORKS\commands\push_fm.bat
 
-set PUSH
+set PUSH="yes"
 
 echo PUSH =^> set
 
