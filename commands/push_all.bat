@@ -7,6 +7,10 @@ echo.
 
 call C:\WORKS\commands\push_fm.bat
 
+set PUSH
+
+echo PUSH =^> set
+
 REM echo.
 REM call C:\WORKS\commands\push_musescore.bat
 
