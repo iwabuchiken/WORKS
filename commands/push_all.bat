@@ -9,7 +9,7 @@ call C:\WORKS\commands\push_fm.bat
 
 set PUSH="yes"
 
-echo PUSH =^> set
+echo PUSH =^> set to "yes"
 
 REM echo.
 REM call C:\WORKS\commands\push_musescore.bat
