@@ -67,6 +67,12 @@ ECHO Setting a var: GNUPLOT_BIN_HOME=C:\WORKS\Programs\gnuplot\bin
 SET GNUPLOT_BIN_HOME=C:\WORKS\Programs\gnuplot\bin
 PATH=%PATH%;%GNUPLOT_BIN_HOME%;
 
+ECHO Setting a var: MECAB_BIN_HOME=C:\WORKS\Programs\MeCab_0996_SJIS\bin
+SET MECAB_BIN_HOME=C:\WORKS\Programs\MeCab_0996_SJIS\bin
+PATH=%PATH%;%MECAB_BIN_HOME%;
+
+
+
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
