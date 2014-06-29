@@ -1,7 +1,4 @@
 @echo off
-REM pause
-REM a p && cd C:\WORKS\WS\WS_Android~\FM && git add . && git commit -m "W" && git push origin master
-REM a && cd C:\WORKS\WS\FM && git add . && git commit -m "W" && git push origin master
 
 echo.
 
@@ -11,11 +8,12 @@ set PUSH="yes"
 
 echo PUSH =^> set to "yes"
 
-REM echo.
-REM call C:\WORKS\commands\push_musescore.bat
 
 echo.
 call C:\WORKS\commands\push_WORKS.bat
 
-REM cd C:\WORKS\WS\WS_MuseScore && git add . && git commit -m "W" && git push origin master
+call C:\WORKS\commands\push_Arduino.bat
+
+call C:\WORKS\commands\push_Electronics
+
 pause
