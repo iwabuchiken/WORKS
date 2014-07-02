@@ -1,6 +1,6 @@
-pushd C:\WORKS
-start "Command Prompt.lnk"
-
+REM pushd C:\WORKS
+REM start "Command Prompt.lnk"
+start C:\WORKS\"Command Prompt.lnk"
 
 pushd "C:\Program Files\Google\Chrome\Application"
 start chrome.exe
