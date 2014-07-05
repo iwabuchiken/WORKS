@@ -71,8 +71,9 @@ ECHO Setting a var: MECAB_BIN_HOME=C:\WORKS\Programs\MeCab_0996_SJIS\bin
 SET MECAB_BIN_HOME=C:\WORKS\Programs\MeCab_0996_SJIS\bin
 PATH=%PATH%;%MECAB_BIN_HOME%;
 
-
-
+ECHO Setting a var: PIK_BIN_HOME=C:\WORKS\Programs\pik_0.3.0
+SET PIK_BIN_HOME=C:\WORKS\Programs\pik_0.3.0
+PATH=%PATH%;%PIK_BIN_HOME%;
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
