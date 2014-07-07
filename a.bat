@@ -75,6 +75,11 @@ ECHO Setting a var: PIK_BIN_HOME=C:\WORKS\Programs\pik_0.3.0
 SET PIK_BIN_HOME=C:\WORKS\Programs\pik_0.3.0
 PATH=%PATH%;%PIK_BIN_HOME%;
 
+ECHO Setting a var: PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.2\php
+SET PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.2\php
+PATH=%PATH%;%PHP_BIN_HOME%;
+
+
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
 			status -^> s, commit -^> c
