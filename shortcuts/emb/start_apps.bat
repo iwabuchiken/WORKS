@@ -9,4 +9,7 @@ start PICkit2V2.exe
 pushd C:\Program Files\Pico Technology\PicoScope6
 start PicoScope.exe
 
+pushd C:\WORKS\Programs\eclipse_kepler\
+start eclipse.exe
+
 exit
