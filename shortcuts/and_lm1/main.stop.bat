@@ -5,4 +5,6 @@ REM http://www.tomshardware.com/forum/82733-45-stop-program-command-line
 taskkill /IM eclipse.exe
 taskkill /IM wish.exe
 
+taskkill /IM sqlitebrowser.exe
+
 exit

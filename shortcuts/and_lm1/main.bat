@@ -6,4 +6,6 @@ start start_eclipse_kepler
 
 start_git
 
+start_sql_browser.bat
+
 exit
