@@ -7,4 +7,6 @@ taskkill /IM mikroC.exe
 taskkill /IM wish.exe
 taskkill /IM PicoScope.exe
 
+taskkill /IM eclipse.exe
+
 exit

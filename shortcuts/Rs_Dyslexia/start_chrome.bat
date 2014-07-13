@@ -18,3 +18,4 @@ start chrome.exe chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
 
 REM paper
 start chrome.exe https://docs.google.com/document/d/1oegJf2rPULZ2-zf8G1fVNFkWAq1DuRuuSDN6-kS_yRI/edit
+start chrome.exe https://docs.google.com/document/d/1xSWxnFH0ZhE6c4BV8l62ZBg_e04TUlGUHLnHqB3mV7c/edit#heading=h.w1xfu6xggflw
