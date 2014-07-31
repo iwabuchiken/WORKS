@@ -6,6 +6,4 @@ REM start C:\WORKS\shortcuts\Rs_BM\start_resizer
 
 start_chrome
 
-start_sakura
-
 exit
