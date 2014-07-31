@@ -1,6 +1,7 @@
 @ECHO OFF
 pushd C:\WORKS\WS\Eclipse_ADT\LM1
-C:\WORKS\Programs\Git\cmd\gitk
+REM C:\WORKS\Programs\Git\cmd\gitk
+gitk
 
 REM pause 
 
