@@ -16,12 +16,6 @@ ECHO Setting a var: WORKS_HOME=C:\WORKS
 SET WORKS_HOME=C:\WORKS
 PATH=%PATH%;%WORKS_HOME%;
 
-
-ECHO Setting a var: COMMANDS_HOME=C:\WORKS\commands
-SET COMMANDS_HOME=C:\WORKS\commands
-PATH=%PATH%;%COMMANDS_HOME%;
-
-
 ECHO Setting a var: SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1.3
 SET SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1.3
 PATH=%PATH%;%SAKURA_HOME%;
@@ -34,8 +28,8 @@ ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS\Programs\jdk1.8.0_11\bin
 SET JAVA_HOME_BIN=C:\WORKS\Programs\jdk1.8.0_11\bin
 PATH=%PATH%;%JAVA_HOME_BIN%;
 
-ECHO Setting a var: COMMANDS=C:\WORKS\commands
-SET COMMANDS=C:\WORKS\commands
+ECHO Setting a var: COMMANDS=C:\WORKS\Utils\commands
+SET COMMANDS=C:\WORKS\Utils\commands
 PATH=%PATH%;%COMMANDS%;
 
 
@@ -61,8 +55,8 @@ SET SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3_3.8.5
 PATH=%PATH%;%SQLITE3_BIN_HOME%;
 
 
-ECHO Setting a var: PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.2\php
-SET PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.2\php
+ECHO Setting a var: PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.3\php
+SET PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.3\php
 PATH=%PATH%;%PHP_BIN_HOME%;
 
 
@@ -79,6 +73,8 @@ git config --global alias.b branch
 
 git config --global core.editor sakura.exe
 
+git config --global credential.helper wincred
+
 goto :end
 
 REM *********************
@@ -88,3 +84,8 @@ REM *
 REM *********************
 :end
 rem exit 0
+
+
+
+
+
