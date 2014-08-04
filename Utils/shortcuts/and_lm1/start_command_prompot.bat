@@ -1,5 +1,10 @@
 @ECHO OFF
 
-start C:\WORKS\shortcuts\and_lm1\"Command Prompt.lnk"
+REM pushd C:\WORKS\Utils\shortcuts\and_lm1
+REM start "Command Prompt.lnk"
 
-exit
+start C:\WORKS\Utils\shortcuts\and_lm1\"Command Prompt.lnk"
+
+popd
+
+REM exit

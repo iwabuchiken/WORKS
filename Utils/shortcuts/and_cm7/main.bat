@@ -1,6 +1,8 @@
 @ECHO OFF
 
-start C:\WORKS\Utils\shortcuts\and_cm7
+pushd C:\WORKS\Utils\shortcuts\and_cm7
+
+REM start C:\WORKS\Utils\shortcuts\and_cm7
 
 start start_eclipse_kepler
 
