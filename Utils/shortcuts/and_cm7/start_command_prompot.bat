@@ -5,7 +5,7 @@ REM pushd C:\WORKS\WS\Eclipse_Kepler\Learn_Sound_Eclipse_W
 
 start C:\WORKS\Utils\shortcuts\and_cm7\"Command Prompt.lnk"
 
-exit
+REM exit
 REM exit
 
 REM start "Command Prompt.lnk"
