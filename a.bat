@@ -37,8 +37,8 @@ REM ECHO Setting a var: GIT_CMD=C:\WORKS\Programs\Git\cmd
 REM SET GIT_CMD=C:\WORKS\Programs\Git\cmd
 REM PATH=%PATH%;%GIT_CMD%;
 
-ECHO Setting a var: ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86-20140702\sdk\platform-tools
-SET ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86-20140702\sdk\platform-tools
+ECHO Setting a var: ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86_64-20140702\sdk\platform-tools
+SET ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86_64-20140702\sdk\platform-tools
 PATH=%PATH%;%ADB_HOME%;
 
 
