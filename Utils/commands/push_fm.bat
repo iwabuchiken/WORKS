@@ -5,6 +5,7 @@ REM a p && cd C:\WORKS\WS\WS_Android~\FM && git add . && git commit -m "W" && gi
 
 echo cd C:\WORKS\WS\FM
 
-C:\WORKS\a && cd C:\WORKS\WS\FM && git add . && git commit -m "W" && git push origin master
+REM C:\WORKS\a && cd C:\WORKS\WS\FM && git add . && git commit -m "W" && git push origin master
+C:\WORKS\a && cd C:\WORKS\WS\FM && git add -A && git commit -m "W" && git push origin master
 
 pause
