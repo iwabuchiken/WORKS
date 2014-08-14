@@ -20,12 +20,12 @@ ECHO Setting a var: SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1.3
 SET SAKURA_HOME=C:\WORKS\Programs\sakura_2.1.1.3
 PATH=%PATH%;%SAKURA_HOME%;
 
-ECHO Setting a var: JAVA_HOME=C:\WORKS\Programs\jdk1.8.0_11
-SET JAVA_HOME=C:\WORKS\Programs\jdk1.8.0_11
+ECHO Setting a var: JAVA_HOME=C:\WORKS\Programs\Java\jdk1.7.0_67
+SET JAVA_HOME=C:\WORKS\Programs\Java\jdk1.7.0_67
 PATH=%PATH%;%JAVA_HOME%;
 
-ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS\Programs\jdk1.8.0_11\bin
-SET JAVA_HOME_BIN=C:\WORKS\Programs\jdk1.8.0_11\bin
+ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS\Programs\Java\jdk1.7.0_67\bin
+SET JAVA_HOME_BIN=C:\WORKS\Programs\Java\jdk1.7.0_67\bin
 PATH=%PATH%;%JAVA_HOME_BIN%;
 
 ECHO Setting a var: COMMANDS=C:\WORKS\Utils\commands
@@ -33,9 +33,9 @@ SET COMMANDS=C:\WORKS\Utils\commands
 PATH=%PATH%;%COMMANDS%;
 
 
-REM ECHO Setting a var: GIT_CMD=C:\WORKS\Programs\Git\cmd
-REM SET GIT_CMD=C:\WORKS\Programs\Git\cmd
-REM PATH=%PATH%;%GIT_CMD%;
+ECHO Setting a var: GIT_CMD=C:\WORKS\Programs\Git\cmd
+SET GIT_CMD=C:\WORKS\Programs\Git\cmd
+PATH=%PATH%;%GIT_CMD%;
 
 ECHO Setting a var: ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86_64-20140702\sdk\platform-tools
 SET ADB_HOME=C:\WORKS\Programs\adt-bundle-windows-x86_64-20140702\sdk\platform-tools
@@ -46,12 +46,12 @@ REM ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
 REM SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
 REM PATH=%PATH%;%ANT_BIN_HOME%;
 
-ECHO Setting a var: JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
-SET JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
-PATH=%PATH%;%JDK_BIN_HOME%;
+REM ECHO Setting a var: JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
+REM SET JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
+REM PATH=%PATH%;%JDK_BIN_HOME%;
 
-ECHO Setting a var: SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3_3.8.5
-SET SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite3_3.8.5
+ECHO Setting a var: SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite-shell-win32-x86-3080500
+SET SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite-shell-win32-x86-3080500
 PATH=%PATH%;%SQLITE3_BIN_HOME%;
 
 
