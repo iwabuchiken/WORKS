@@ -1,6 +1,6 @@
 @ECHO OFF
 
-start C:\WORKS\Utils\shortcuts\cake_vm\start_command_prompot
+start C:\WORKS\Utils\shortcuts\cake_ifm11\start_command_prompot
 
 REM start "start_eclipse_kepler,filezilla,xampp.bat"
 start start_eclipse_kepler-filezilla-xampp
