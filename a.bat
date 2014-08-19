@@ -55,9 +55,13 @@ SET SQLITE3_BIN_HOME=C:\WORKS\Programs\sqlite-shell-win32-x86-3080500
 PATH=%PATH%;%SQLITE3_BIN_HOME%;
 
 
-ECHO Setting a var: PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.3\php
-SET PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.3\php
+ECHO Setting a var: PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.2_x86\php
+SET PHP_BIN_HOME=C:\WORKS\Programs\xampp_1.8.2_x86\php
 PATH=%PATH%;%PHP_BIN_HOME%;
+
+ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
+SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
+PATH=%PATH%;%RUBY_BIN_HOME%;
 
 
 ECHO Setting aliases for git
