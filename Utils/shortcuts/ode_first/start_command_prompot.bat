@@ -1,6 +1,6 @@
 @ECHO OFF
 
-start C:\WORKS\Utils\shortcuts\cake_vm\"Command Prompt.lnk"
+start C:\WORKS\Utils\shortcuts\ode_first\"Command Prompt.lnk"
 
 
 exit
