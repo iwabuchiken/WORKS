@@ -4,7 +4,7 @@ pushd "C:\Program Files (x86)\Google\Chrome\Application"
 
 REM paper
 REM start chrome.exe https://docs.google.com/document/d/1iYpnmfI9gCG3m54mCu6FRZ9BJF20A8ZmR8ZQthq59Pw/edit
-start chrome.exe https://docs.google.com/document/d/1CeJk_iS4tetady7WguyXNZ_-3EvfW9ABDQHuzyybTDI/edit
+start chrome.exe https://docs.google.com/document/d/19FHA6c0vsghjA80LgVzwnyb7x0VZ0Dy3dOlJXviU3YI/edit#heading=h.m3av3ifrw1d2
 
 REM Wikis
 start chrome.exe http://en.wikipedia.org/wiki/Main_Page
