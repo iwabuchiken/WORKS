@@ -18,6 +18,10 @@ call C:\WORKS\Utils\commands\push_mylyn
 echo push_embedded
 call C:\WORKS\Utils\commands\push_embedded
 
+echo.
+echo push_MuseScore
+call C:\WORKS\Utils\commands\push_MuseScore
+
 REM call C:\WORKS\Utils\commands\push_Arduino.bat
 
 REM call C:\WORKS\Utils\commands\push_Electronics

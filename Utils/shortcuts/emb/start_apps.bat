@@ -12,4 +12,7 @@ start PicoScope.exe
 pushd C:\WORKS\Programs\eclipse_kepler
 start eclipse.exe
 
+REM calculator
+start %windir%\system32\calc.exe
+
 exit

@@ -9,4 +9,6 @@ taskkill /IM PicoScope.exe
 
 taskkill /IM eclipse.exe
 
+taskkill /IM calc.exe
+
 exit
