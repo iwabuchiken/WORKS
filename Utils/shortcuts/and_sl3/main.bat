@@ -1,6 +1,6 @@
 @ECHO OFF
 
-pushd C:\WORKS\Utils\shortcuts\and_ifm11
+pushd C:\WORKS\Utils\shortcuts\and_sl3
 
 REM start C:\WORKS\Utils\shortcuts\and_cm7
 
