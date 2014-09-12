@@ -12,6 +12,10 @@ start PicoScope.exe
 pushd C:\WORKS\Programs\eclipse_kepler
 start eclipse.exe
 
+pushd C:\WORKS\Programs\Microchip\MPLAB_8.86\MPLAB IDE\Core
+start MPLAB.exe
+
+
 REM calculator
 start %windir%\system32\calc.exe
 
