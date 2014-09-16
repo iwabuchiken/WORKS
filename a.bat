@@ -71,8 +71,6 @@ ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 PATH=%PATH%;%RUBY_BIN_HOME%;
 
-C:\WORKS\Programs\Ruby200-x64\bin
-
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
