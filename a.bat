@@ -71,6 +71,10 @@ ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 PATH=%PATH%;%RUBY_BIN_HOME%;
 
+ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
+SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
+PATH=%PATH%;%ANT_BIN_HOME%;
+
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
