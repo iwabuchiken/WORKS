@@ -11,4 +11,6 @@ taskkill /IM eclipse.exe
 
 taskkill /IM calc.exe
 
+taskkill /IM mplab_ide.exe
+
 exit
