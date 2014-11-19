@@ -9,8 +9,8 @@ start PICkit2V2.exe
 pushd C:\Program Files (x86)\Pico Technology\PicoScope6
 start PicoScope.exe
 
-REM pushd C:\WORKS\Programs\eclipse_kepler
-REM start eclipse.exe
+pushd C:\WORKS\Programs\eclipse_kepler
+start eclipse.exe
 
 REM pushd C:\WORKS\Programs\Microchip\MPLAB_8.86\MPLAB IDE\Core
 REM start MPLAB.exe
