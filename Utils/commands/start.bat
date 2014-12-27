@@ -15,7 +15,7 @@ REM start FreeMind
 start C:\WORKS
 
 
-timeout /t 2
+REM timeout /t 2
 
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM chrome.exe
