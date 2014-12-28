@@ -12,7 +12,7 @@ REM pushd C:\WORKS\Programs\FreeMind_1.0.0\FreeMind
 REM start FreeMind
 
 
-start C:\WORKS
+REM start C:\WORKS
 
 
 REM timeout /t 2
@@ -25,6 +25,8 @@ start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_i
 
 REM timeout /t 5
 timeout /t 8
+
+start C:\WORKS
 
 REM pushd C:\WORKS\Programs\Freemind_1.0.1\FreeMind
 pushd C:\WORKS\Programs\FreeMind_1.0.1
