@@ -34,11 +34,12 @@ pushd C:\WORKS\Programs\FreeMind_1.0.1
 REM pushd C:\WORKS\Programs\FreeMind_1.0.0\FreeMind
 start FreeMind
 
-timeout /t 8
+REM timeout /t 8
 
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM chrome.exe
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+22845+22882+22874
 start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
-start chrome.exe  chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
+start chrome.exe chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
+start chrome.exe https://www.youtube.com/
