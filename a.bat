@@ -75,6 +75,10 @@ ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
 SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
 PATH=%PATH%;%ANT_BIN_HOME%;
 
+ECHO Setting a var: CLISP_BIN_HOME=C:\WORKS\Programs\clisp-2.49
+SET CLISP_BIN_HOME=C:\WORKS\Programs\clisp-2.49
+PATH=%PATH%;%CLISP_BIN_HOME%;
+
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
