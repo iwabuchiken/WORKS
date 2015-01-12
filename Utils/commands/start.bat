@@ -40,6 +40,9 @@ pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM chrome.exe
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 REM start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+22845+22882+22874
-REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
+start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
 REM start chrome.exe chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
-REM start chrome.exe https://www.youtube.com/
+start chrome.exe https://www.youtube.com/
+
+pushd C:\WORKS\Programs\Firefox_33.0
+start firefox http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
