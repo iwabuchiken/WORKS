@@ -48,3 +48,8 @@ pushd C:\WORKS\Programs\Firefox_33.0
 REM start firefox http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
 firefox http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
 firefox http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
+
+
+
+:end
+exit
